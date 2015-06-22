@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CityMov</string>
+
+    <string name="hello_citymov">Hello CityMov!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_username">Nome do usuario</string>
+    <string name="lbl_enter_username">Digite seu nome de usuario</string>
+    <string name="lbl_pwd">Senha do usuario</string>
+    <string name="lbl_enter_pwd">Digite sua senha</string>
+    <string name="lbl_login">Entrar</string>
+</resources>
