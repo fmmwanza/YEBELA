@@ -92,4 +92,18 @@
         android:textStyle="bold"
         />
 
+    <Button
+        android:id="@+id/btn_login_facebook"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:text="@string/lbl_login_facebook"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="13sp"
+        android:background="#008080"
+        android:textStyle="bold"
+        />
+
 </RelativeLayout>

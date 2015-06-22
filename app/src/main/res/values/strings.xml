@@ -8,4 +8,7 @@
     <string name="lbl_pwd">Senha do usuario</string>
     <string name="lbl_enter_pwd">Digite sua senha</string>
     <string name="lbl_login">Entrar</string>
+    <string name="lbl_login_facebook">Entrar pelo Facebook</string>
+    <string name="title_activity_main_list">MainListActivity</string>
+    <string name="nothing_found">Nenhum evento encontrado!</string>
 </resources>

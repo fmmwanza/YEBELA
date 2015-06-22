@@ -4,40 +4,20 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
-import android.view.View;
 
-public class MainActivity extends ActionBarActivity {
 
-    Button _loginBtn;
-    Button _loginFacebook;
+public class MainListActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        _loginBtn = ( Button )findViewById(R.id.btn_login);
-        _loginFacebook = ( Button )findViewById(R.id.btn_login_facebook);
-
-        _loginBtn.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                _loginBtn.setText("Eu Amo VC bbzito");
-            }
-        });
-
-        _loginFacebook.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                _loginFacebook.setText("Vc casa comigo???");
-            }
-        });
+        setContentView(R.layout.activity_main_list);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_main_list, menu);
         return true;
     }
 
