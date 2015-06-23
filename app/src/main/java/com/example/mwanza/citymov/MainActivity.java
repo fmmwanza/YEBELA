@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.view.View;
+import android.content.Intent;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -22,7 +23,8 @@ public class MainActivity extends ActionBarActivity {
         _loginBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                _loginBtn.setText("Eu Amo VC bbzito");
+                Intent intent = new Intent(MainActivity.this, MainListActivity.class);
+                startActivity(intent);
             }
         });
 
