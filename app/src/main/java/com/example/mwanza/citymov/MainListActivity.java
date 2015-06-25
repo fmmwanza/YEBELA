@@ -12,20 +12,16 @@ import android.widget.ListView;
 public class MainListActivity extends Activity {
 
     private ListView eventListView;
-    private String[] stringArray ;
     private ArrayAdapter eventItemArrayAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_list);
 
-        stringArray = new String[10];
-        for (int i = 0; i < stringArray.length; i++){
-            stringArray[i] = "String" + i;
-        }
+        eventItemArrayAdapter = new EventAdapter(this, new String[10]);
 
-        eventItemArrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, stringArray);
-        eventListView = (ListView) findViewById(R.id.listViewId);
+      //  eventItemArrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, stringArray);
+        eventListView = (ListView) findViewById(R.id.eventList);
         eventListView.setAdapter(eventItemArrayAdapter);
     }
 
