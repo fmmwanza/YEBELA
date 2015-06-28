@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.view.View;
 
 
 public class MainListActivity extends Activity {
@@ -18,7 +19,7 @@ public class MainListActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_list);
 
-        eventItemArrayAdapter = new EventAdapter(this, new String[10]);
+        eventItemArrayAdapter = new EventAdapter(this, new String[15]);
 
       //  eventItemArrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, stringArray);
         eventListView = (ListView) findViewById(R.id.eventList);
