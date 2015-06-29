@@ -23,7 +23,7 @@ public class MainActivity extends ActionBarActivity {
         _loginBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(MainActivity.this, MainListActivity.class);
+                Intent intent = new Intent(MainActivity.this, EventListPerso.class);
                 startActivity(intent);
             }
         });

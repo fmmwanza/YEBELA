@@ -9,6 +9,20 @@
     <string name="lbl_enter_pwd">Digite sua senha</string>
     <string name="lbl_login">Entrar</string>
     <string name="lbl_login_facebook">Entrar pelo Facebook</string>
-    <string name="title_activity_main_list">MainListActivity</string>
+    <string name="title_activity_main_list">CityMov</string>
     <string name="nothing_found">Nenhum evento encontrado!</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_event_list_perso">CityMov</string>
+
+    <string name="title_section1">Popular</string>
+    <string name="title_section2">Amigos</string>
+    <string name="title_section3">Meus eventos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">CITYMOV</string>
+
+
 </resources>

@@ -20,6 +20,10 @@
             android:name=".MainListActivity"
             android:label="@string/title_activity_main_list" >
         </activity>
+        <activity
+            android:name=".EventListPerso"
+            android:label="@string/title_activity_event_list_perso" >
+        </activity>
     </application>
 
 </manifest>
