@@ -14,6 +14,7 @@
             android:textColor="#222222"
             android:textStyle="bold"
             android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"/>
 
         <ImageView
@@ -23,6 +24,7 @@
             android:scaleType="fitXY"
             android:src="@drawable/cultura_poa"
             android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:layout_marginTop="5dp" />
 
 
