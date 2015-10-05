@@ -9,7 +9,6 @@
     <LinearLayout android:id="@+id/string_searchLayout"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
         android:orientation="horizontal">
 
         <EditText
@@ -26,7 +25,7 @@
     </LinearLayout>
 
     <ListView
-        android:id="@+id/eventList"
+        android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="@android:color/transparent"
@@ -52,7 +51,8 @@
     <!-- The drawer is given a fixed width in dp and extends the full height of
          the container. -->
     <fragment android:id="@+id/navigation_drawer"
-        android:layout_width="@dimen/navigation_drawer_width" android:layout_height="match_parent"
+        android:layout_width="@dimen/navigation_drawer_width"
+        android:layout_height="match_parent"
         android:layout_gravity="start"
         android:name="com.example.mwanza.citymov.NavigationDrawerFragment"
         tools:layout="@layout/fragment_navigation_drawer" />

@@ -6,7 +6,7 @@
     android:background="#CCE5E5">
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/eventTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="OSPA Musica cultural em POA"

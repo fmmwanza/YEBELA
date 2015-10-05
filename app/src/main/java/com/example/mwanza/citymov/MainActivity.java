@@ -27,13 +27,6 @@ public class MainActivity extends ActionBarActivity {
                 startActivity(intent);
             }
         });
-
-        _loginFacebook.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                _loginFacebook.setText("Vc casa comigo???");
-            }
-        });
     }
 
     @Override

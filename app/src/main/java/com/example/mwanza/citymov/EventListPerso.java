@@ -18,8 +18,9 @@ import android.support.v4.widget.DrawerLayout;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.app.ListActivity;
 
-
+//ListActivity
 public class EventListPerso extends ActionBarActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
@@ -32,7 +33,6 @@ public class EventListPerso extends ActionBarActivity
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
      */
     private CharSequence mTitle;
-    private ListView eventListView;
     private ArrayAdapter eventItemArrayAdapter;
 
     @Override
@@ -40,11 +40,15 @@ public class EventListPerso extends ActionBarActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event_list_perso);
 
-        eventItemArrayAdapter = new EventAdapter(this, new String[15]);
+        //eventItemArrayAdapter = new EventAdapter(this, new String[15]);
+        EventDetails detailsItemEvent = new EventDetails();
+
 
         //  eventItemArrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, stringArray);
-        eventListView = (ListView) findViewById(R.id.eventList);
-        eventListView.setAdapter(eventItemArrayAdapter);
+       // eventListView = (ListView) findViewById(R.id.eventList);
+        //eventListView.setListAdapter(eventItemArrayAdapter);
+
+        //detailsEvent.setListAdapter( eventItemArrayAdapter );
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);

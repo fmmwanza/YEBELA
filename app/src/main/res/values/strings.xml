@@ -13,7 +13,7 @@
     <string name="lbl_login_facebook">Entrar pelo Facebook</string>
     <string name="title_activity_main_list">CityMov</string>
     <string name="nothing_found">Nenhum evento encontrado!</string>
-    <string name="string_search">Buscar evento ...</string>
+    <string name="string_search">Buscar evento...</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_event_list_perso">CityMov</string>
