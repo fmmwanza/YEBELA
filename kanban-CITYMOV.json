@@ -10,6 +10,16 @@
             "name": "Mostrar quem vai",
             "details": "Ao clicar no ranking (valor que mostra o n° total das pessoas q vão comparecer), mostrar a lista das pessoas",
             "color": "FF9E9E"
+          },
+          {
+            "name": "Versão WEB",
+            "details": "Uma versão web do app",
+            "color": "FF9E9E"
+          },
+          {
+            "name": "IOS App",
+            "details": "A versão para IOS vai fazer falta no início",
+            "color": "FF9E9E"
           }
         ],
         "settings": {}
@@ -48,7 +58,7 @@
             "color": "CCD0FC"
           },
           {
-            "name": "Add butão compartilhar",
+            "name": "Add botão compartilhar",
             "details": "opção para compartilhar o evento",
             "color": "CCD0FC"
           },
@@ -70,6 +80,36 @@
           {
             "name": "Botão citymov no canto superior direita",
             "details": "Tirar o popup que se abre e deixar o botão sem ação por enquanto.",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Buscar...",
+            "details": "Todar dinâmica a busca... mostrar o resultado de forma instantanea",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Configuração",
+            "details": "Criar a tela de configuração ...\n- opção de escala(municipa, regional, nacional e internacional).\n- Deixar que teus amigos vejam os eventos que tu vais?\n- Aceitar recomendaçãoes\n- ...",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Sobre...",
+            "details": "Criar a tela de 'sobre' e apresentar as informações de contatos\n//Email e telefone",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Premium",
+            "details": "Estudar a melhor forma de arrecadar dinheiro. A primeira opção no momento é criar um segundo app pago que vai que possibilita a criação e publicações dos eventos",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Criar página do facebook",
+            "details": "Página onde as informações do app serão divulgadas",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Criar página no Instagram",
+            "details": "CityMoov official Fan Page",
             "color": "CCD0FC"
           }
         ],
