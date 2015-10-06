@@ -1,0 +1,108 @@
+{
+  "CITYMOOV": {
+    "name": "CITYMOOV",
+    "numberOfColumns": 6,
+    "columns": [
+      {
+        "name": "QUEUE",
+        "cards": [
+          {
+            "name": "Mostrar quem vai",
+            "details": "Ao clicar no ranking (valor que mostra o n° total das pessoas q vão comparecer), mostrar a lista das pessoas",
+            "color": "FF9E9E"
+          }
+        ],
+        "settings": {}
+      },
+      {
+        "name": "TO DO",
+        "cards": [
+          {
+            "name": "tela login",
+            "details": "Logar com facebook .. only",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "login único",
+            "details": "registrar login ... nao pedir mais nas próximas vezes",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Estudar melhores formas de login",
+            "details": "Estudar como armazenar as infos de login",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Barra lateral",
+            "details": "Cor de fundo, menus, rodapé...",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Web service",
+            "details": "Estudar e buscar mais API para alimentar o app. Implementar o carregamento das infos no app. Estudar melhor forma de fazer isso",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Detalhes do Item",
+            "details": "ao clicar no item, abrir nova janela com detalhes completos do evento",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Add butão compartilhar",
+            "details": "opção para compartilhar o evento",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Contabilizar n° de ação",
+            "details": "Partiu? Passo? Pensando? Salvar esse evento no BD p mostrar depois a soma total",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Mostrar o ranking do evento",
+            "details": "Mostrar o quanto o evento está sendo interessado. Mostrar o ranking global do 'partiu'",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Criar banco de dados",
+            "details": "Estudar a melhor tecnologia p implementar o BD para app nativo de grande escala",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Botão citymov no canto superior direita",
+            "details": "Tirar o popup que se abre e deixar o botão sem ação por enquanto.",
+            "color": "CCD0FC"
+          }
+        ],
+        "settings": {}
+      },
+      {
+        "name": "DOING",
+        "cards": [],
+        "settings": {}
+      },
+      {
+        "name": "DONE",
+        "cards": [],
+        "settings": {
+          "limit": 5
+        }
+      },
+      {
+        "name": "TEST",
+        "cards": [],
+        "settings": {
+          "limit": 3
+        }
+      },
+      {
+        "name": "FINISH",
+        "cards": [],
+        "settings": {
+          "color": null
+        }
+      }
+    ],
+    "archived": [],
+    "settings": {}
+  }
+}
