@@ -1,0 +1,77 @@
+{
+  "CITYMOOV": {
+    "name": "CITYMOOV",
+    "numberOfColumns": 6,
+    "columns": [
+      {
+        "name": "QUEUE",
+        "cards": [],
+        "settings": {}
+      },
+      {
+        "name": "TO DO",
+        "cards": [
+          {
+            "name": "tela login",
+            "details": "Logar com facebook .. only",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "login único",
+            "details": "registrar login ... nao pedir mais nas próximas vezes",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Estudar melhores formas de login",
+            "details": "Estudar como armazenar as infos de login",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Barra lateral",
+            "details": "Cor de fundo, menus, rodapé...",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Web service",
+            "details": "Estudar e buscar mais API para alimentar o app. Implementar o carregamento das infos no app. Estudar melhor forma de fazer isso",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Detalhes do Item",
+            "details": "ao clicar no item, abrir nova janela com detalhes completos do evento",
+            "color": "CCD0FC"
+          }
+        ],
+        "settings": {}
+      },
+      {
+        "name": "DOING",
+        "cards": [],
+        "settings": {}
+      },
+      {
+        "name": "DONE",
+        "cards": [],
+        "settings": {
+          "limit": 5
+        }
+      },
+      {
+        "name": "TEST",
+        "cards": [],
+        "settings": {
+          "limit": 3
+        }
+      },
+      {
+        "name": "FINISH",
+        "cards": [],
+        "settings": {
+          "color": null
+        }
+      }
+    ],
+    "archived": [],
+    "settings": {}
+  }
+}
