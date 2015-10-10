@@ -111,6 +111,16 @@
             "name": "Criar página no Instagram",
             "details": "CityMoov official Fan Page",
             "color": "CCD0FC"
+          },
+          {
+            "name": "Mecanismo de limpeza do BD",
+            "details": "Eliminar os eventos passados ... salvar localmente caso alguém precisasse no futuro",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Criar ícones do App",
+            "details": "Estudar o mercado e justificar a escolha",
+            "color": "CCD0FC"
           }
         ],
         "settings": {}
