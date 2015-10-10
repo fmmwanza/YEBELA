@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.mwanza.citymov.EventListPerso">
 
+<<<<<<< HEAD
     <LinearLayout android:id="@+id/string_searchLayout"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
@@ -24,13 +25,14 @@
 
     </LinearLayout>
 
+=======
+>>>>>>> parent of 29b05cd... search event editText
     <ListView
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="@android:color/transparent"
         android:dividerHeight="15.0sp"
-        android:layout_marginTop="35dp"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
@@ -39,8 +41,7 @@
 
     <!-- As the main content view, the view below consumes the entire
          space available using match_parent in both dimensions. -->
-    <FrameLayout android:id="@+id/container"
-        android:layout_width="match_parent"
+    <FrameLayout android:id="@+id/container" android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <!-- android:layout_gravity="start" tells DrawerLayout to treat

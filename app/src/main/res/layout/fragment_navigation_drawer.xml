@@ -1,4 +1,5 @@
 <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -6,4 +7,10 @@
     android:divider="@android:color/transparent"
     android:dividerHeight="0dp"
     android:background="#008080"
+=======
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:choiceMode="singleChoice"
+    android:divider="@android:color/transparent" android:dividerHeight="0dp"
+    android:background="#cccc"
+>>>>>>> parent of 29b05cd... search event editText
     tools:context="com.example.mwanza.citymov.NavigationDrawerFragment" />
