@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CityMov</string>
 
-    <string name="hello_citymov">Hello CityMov!</string>
+    <string name="hello_citymov">Hello CityMoov!</string>
     <string name="action_settings">Configuração</string>
     <string name="action_premium">Premium</string>
     <string name="action_sobre">Sobre</string>
@@ -26,5 +26,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_example">CITYMOV</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 
 </resources>

@@ -24,6 +24,13 @@
             android:name=".EventListPerso"
             android:label="@string/title_activity_event_list_perso" >
         </activity>
+        <activity
+            android:name=".Details"
+            android:label="@string/title_activity_details"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".Main2Activity" >
+        </activity>
     </application>
 
 </manifest>

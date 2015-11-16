@@ -23,4 +23,5 @@ public class EventAdapter extends ArrayAdapter {
     public View getView(int position, View convertView, ViewGroup parent){
         return inflater.inflate(R.layout.row_event, parent, false);
     }
+
 }

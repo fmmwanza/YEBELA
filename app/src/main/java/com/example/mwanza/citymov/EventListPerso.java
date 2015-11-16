@@ -1,6 +1,7 @@
 package com.example.mwanza.citymov;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -32,19 +33,11 @@ public class EventListPerso extends ActionBarActivity
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
      */
     private CharSequence mTitle;
-    private ListView eventListView;
-    private ArrayAdapter eventItemArrayAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event_list_perso);
-
-        eventItemArrayAdapter = new EventAdapter(this, new String[15]);
-
-        //  eventItemArrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, stringArray);
-        eventListView = (ListView) findViewById(R.id.eventList);
-        eventListView.setAdapter(eventItemArrayAdapter);
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
@@ -54,6 +47,7 @@ public class EventListPerso extends ActionBarActivity
         mNavigationDrawerFragment.setUp(
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
+
     }
 
     @Override

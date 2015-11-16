@@ -6,7 +6,7 @@
     android:background="#CCE5E5">
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/EventTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="OSPA Musica cultural em POA"
@@ -15,7 +15,8 @@
             android:textStyle="bold"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:layout_marginTop="5dp"/>
+            android:layout_marginTop="5dp"
+            />
 
         <ImageView
             android:id="@+id/eventImage"
@@ -38,7 +39,9 @@
             android:ellipsize="end"
             android:textColor="#800000"
             android:layout_marginLeft="5dp"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:focusable="false"
+            android:descendantFocusability="afterDescendants"/>
 
         <TextView
             android:id="@+id/textView3"
@@ -47,7 +50,9 @@
             android:text="Dom, 26 Nov 2015"
             android:layout_marginTop="2dp"
             android:layout_marginLeft="5dp"
-            android:textSize="12sp" />
+            android:textSize="12sp"
+            android:focusable="false"
+            android:descendantFocusability="afterDescendants"/>
         />
 
         <LinearLayout
@@ -57,6 +62,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginLeft="5dp"
             android:layout_marginBottom="15dp"
+            android:descendantFocusability="blocksDescendants"
            >
 
             <Button
