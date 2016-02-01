@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">CityMov</string>
+    <string name="app_name">TeLeMa</string>
 
-    <string name="hello_citymov">Hello CityMoov!</string>
+    <string name="hello_Telema">Hello TeLeMa!</string>
     <string name="action_settings">Configuração</string>
     <string name="action_premium">Premium</string>
     <string name="action_sobre">Sobre</string>

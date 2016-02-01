@@ -29,12 +29,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        _loginFacebook.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                _loginFacebook.setText("Vc casa comigo???");
-            }
-        });
     }
 
     @Override

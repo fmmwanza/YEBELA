@@ -3,15 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#b2b2b2"
-    android:gravity="center"
+    android:paddingTop="10dp"
     android:orientation="vertical" >
 
-    <ImageView
-        android:id="@+id/tweetImage"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@color/material_blue_grey_900"
-        android:layout_gravity="center_horizontal" />
+
+    <ScrollView android:id="@+id/ScrlView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,34 +21,71 @@
         android:background="#fff"
         android:padding="10dp" >
 
+    <ImageView
+        android:id="@+id/tweetImage"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/cultura_poa"
+        />
+
+
+
         <TextView
-            android:id="@+id/tweetTitle"
+            android:id="@+id/eventTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:text="Header Text"
             android:textColor="#181717"
             android:textSize="19sp"
             android:textStyle="bold" />
+
         <TextView
-            android:id="@+id/tweetBody"
+            android:id="@+id/evetDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginTop="5dp"
-            android:text="Tweet body text"
-            android:textColor="#393939"
-            android:textSize="14sp" />
-        <TextView
-            android:id="@+id/tweetDate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginTop="5dp"
-            android:text="21st November, 2013"
+            android:text="QUANDO: 21st November, 2013"
             android:textColor="#615f5f"
             android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/EventAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:text="ONDE: Av. Salgado Filho 2250, centro, POA"
+            android:textColor="#615f5f"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/eventPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:text="Preço: 25 R$"
+            android:textColor="#615f5f"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/eventDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@color/ripple_material_light"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte. Tous les générateurs de Lorem Ipsum sur Internet tendent à reproduire le même extrait sans fin, ce qui fait de lipsum.com le seul vrai générateur de Lorem Ipsum. Iil utilise un dictionnaire de plus de 200 mots latins, en combinaison de plusieurs structures de phrases, pour générer un Lorem Ipsum irréprochable. Le Lorem Ipsum ainsi obtenu ne contient aucune répétition, ni ne contient des mots farfelus, ou des touches d'humour."
+            android:textColor="#393939"
+            android:textSize="14sp" />
+
+
+
     </LinearLayout>
-
-
+    </ScrollView>
 
 </LinearLayout>

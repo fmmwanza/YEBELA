@@ -17,19 +17,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainListActivity"
-            android:label="@string/title_activity_main_list" >
-        </activity>
-        <activity
             android:name=".EventListPerso"
-            android:label="@string/title_activity_event_list_perso" >
+            android:label="@string/title_activity_event_list_perso"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            >
         </activity>
         <activity
             android:name=".Details"
             android:label="@string/title_activity_details"
-            android:theme="@style/AppTheme.NoActionBar" >
+            >
         </activity>
-        <activity android:name=".Main2Activity" >
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/AppTheme.AppBarOverlay">
         </activity>
     </application>
 

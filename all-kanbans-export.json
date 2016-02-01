@@ -1,0 +1,194 @@
+{
+  "CITYMOOV": {
+    "name": "CITYMOOV",
+    "numberOfColumns": 6,
+    "columns": [
+      {
+        "name": "QUEUE",
+        "cards": [
+          {
+            "name": "Mostrar quem vai",
+            "details": "Ao clicar no ranking (valor que mostra o n° total das pessoas q vão comparecer), mostrar a lista das pessoas",
+            "color": "FF9E9E"
+          },
+          {
+            "name": "Versão WEB",
+            "details": "Uma versão web do app",
+            "color": "FF9E9E"
+          },
+          {
+            "name": "IOS App",
+            "details": "A versão para IOS vai fazer falta no início",
+            "color": "FF9E9E"
+          },
+          {
+            "name": "Comentários nos eventos",
+            "details": "mostrar quantos comentários tem o evento. Ao abrir o evento p ver mais detalhes, listar os comentários principais tbm. E mostrar campo p permitir o usúario comentar",
+            "color": "FF9E9E"
+          },
+          {
+            "name": "Email de captura",
+            "details": "Semanalmente, enviar um email p os usúarios com os principais eventos da próxima semana",
+            "color": "FF9E9E"
+          },
+          {
+            "name": "Promoções",
+            "details": "- Maxi\n- Mega\n- Ultra\n\nOferecer diferentes tipos de opções para promover o evento. Ex: Maxi oferece a opção de enviar uma notificação p todos os usúarios  sobre um determinado evento.",
+            "color": "FF9E9E"
+          },
+          {
+            "name": "Cor degradé nos eventos",
+            "details": "Colocar cor degradé nos evento. De branco até vermelho, menos popular até mais popular",
+            "color": "FF9E9E"
+          },
+          {
+            "name": "Google Agenda Integração",
+            "details": "Adicionar evento na agenda google do usuário\n\nhttps://developers.google.com/google-apps/calendar/create-events",
+            "color": "FF9E9E"
+          }
+        ],
+        "settings": {}
+      },
+      {
+        "name": "TO DO",
+        "cards": [
+          {
+            "name": "tela login",
+            "details": "Logar com facebook .. only",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "login único",
+            "details": "registrar login ... nao pedir mais nas próximas vezes",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Estudar melhores formas de login",
+            "details": "Estudar como armazenar as infos de login",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Barra lateral",
+            "details": "Cor de fundo, menus, rodapé...",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Web service",
+            "details": "Estudar e buscar mais API para alimentar o app. Implementar o carregamento das infos no app. Estudar melhor forma de fazer isso",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Detalhes do Item",
+            "details": "ao clicar no item, abrir nova janela com detalhes completos do evento",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Add botão compartilhar",
+            "details": "opção para compartilhar o evento whatsapp, facebook (messenger, wall), email, gmail, insta, sms,",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Contabilizar n° de ação",
+            "details": "Partiu? Passo? Pensando? Salvar esse evento no BD p mostrar depois a soma total",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Mostrar o ranking do evento",
+            "details": "Mostrar o quanto o evento está sendo interessado. Mostrar o ranking global do 'partiu'",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Criar banco de dados",
+            "details": "Estudar a melhor tecnologia p implementar o BD para app nativo de grande escala",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Botão citymov no canto superior direita",
+            "details": "Tirar o popup que se abre e deixar o botão sem ação por enquanto.",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Buscar...",
+            "details": "Todar dinâmica a busca... mostrar o resultado de forma instantanea",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Configuração",
+            "details": "Criar a tela de configuração ...\n- opção de escala(municipa, regional, nacional e internacional).\n- Deixar que teus amigos vejam os eventos que tu vais?\n- Aceitar recomendaçãoes\n- ...",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Sobre...",
+            "details": "Criar a tela de 'sobre' e apresentar as informações de contatos\n//Email e telefone",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Premium",
+            "details": "Estudar a melhor forma de arrecadar dinheiro. A primeira opção no momento é criar um segundo app pago que vai que possibilita a criação e publicações dos eventos",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Criar página do facebook",
+            "details": "Página onde as informações do app serão divulgadas",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Criar página no Instagram",
+            "details": "CityMoov official Fan Page",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Mecanismo de limpeza do BD",
+            "details": "Eliminar os eventos passados ... salvar localmente caso alguém precisasse no futuro",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Criar ícones do App",
+            "details": "Estudar o mercado e justificar a escolha",
+            "color": "CCD0FC"
+          },
+          {
+            "name": "Menu 3 abas",
+            "details": "Menu: Meus eventos, Para voce(Géral), Meus critérios",
+            "color": "CCD0FC"
+          }
+        ],
+        "settings": {}
+      },
+      {
+        "name": "DOING",
+        "cards": [],
+        "settings": {}
+      },
+      {
+        "name": "DONE",
+        "cards": [
+          {
+            "name": "Setting",
+            "details": "- Montar PC\n- Ajustar o app\n- Ajustar kanban",
+            "color": "A2FCA3"
+          }
+        ],
+        "settings": {
+          "limit": 5
+        }
+      },
+      {
+        "name": "TEST",
+        "cards": [],
+        "settings": {
+          "limit": 3
+        }
+      },
+      {
+        "name": "FINISH",
+        "cards": [],
+        "settings": {
+          "color": null
+        }
+      }
+    ],
+    "archived": [],
+    "settings": {}
+  }
+}
