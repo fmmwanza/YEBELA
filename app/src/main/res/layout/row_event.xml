@@ -89,7 +89,7 @@
                 android:id="@+id/btn_login3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Passo"
+                android:text="Passooo"
                 android:textSize="13sp"
                 android:background="@drawable/button_style"
                 android:textStyle="bold"

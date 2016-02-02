@@ -3,13 +3,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#b2b2b2"
-    android:paddingTop="10dp"
+    android:paddingTop="0dp"
     android:orientation="vertical" >
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#008080"
+        android:elevation="4dp"
+        />
 
     <ScrollView android:id="@+id/ScrlView"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +26,7 @@
         android:orientation="vertical"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="0dp"
         android:background="#fff"
         android:padding="10dp" >
 
@@ -27,8 +36,6 @@
         android:layout_height="250dp"
         android:background="@drawable/cultura_poa"
         />
-
-
 
         <TextView
             android:id="@+id/eventTitle"
@@ -79,10 +86,10 @@
             android:background="@color/ripple_material_light"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
+            android:padding="5dp"
             android:text="Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte. Tous les générateurs de Lorem Ipsum sur Internet tendent à reproduire le même extrait sans fin, ce qui fait de lipsum.com le seul vrai générateur de Lorem Ipsum. Iil utilise un dictionnaire de plus de 200 mots latins, en combinaison de plusieurs structures de phrases, pour générer un Lorem Ipsum irréprochable. Le Lorem Ipsum ainsi obtenu ne contient aucune répétition, ni ne contient des mots farfelus, ou des touches d'humour."
             android:textColor="#393939"
             android:textSize="14sp" />
-
 
 
     </LinearLayout>
