@@ -5,6 +5,7 @@ package com.example.mwanza.citymov;
  */
 import com.example.mwanza.citymov.R;
 import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +15,7 @@ public class EventAdapter extends ArrayAdapter {
 
     private LayoutInflater inflater;
 
-    public EventAdapter(Activity activity, String[] items){
+    public EventAdapter(AppCompatActivity activity, String[] items){
         super(activity, R.layout.row_event, items);
         inflater = activity.getWindow().getLayoutInflater();
     }
