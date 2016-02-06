@@ -3,9 +3,7 @@ package com.example.mwanza.citymov;
 /**
  * Created by mwanza on 24/06/15.
  */
-import com.example.mwanza.citymov.R;
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,14 +13,15 @@ public class EventAdapter extends ArrayAdapter {
 
     private LayoutInflater inflater;
 
-    public EventAdapter(AppCompatActivity activity, String[] items){
+    public EventAdapter(Activity activity, String[] items){
         super(activity, R.layout.row_event, items);
-        inflater = activity.getWindow().getLayoutInflater();
+        inflater = activity.getWindow().getLayoutInflater();// LayoutInflater.from( activity );
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent){
         return inflater.inflate(R.layout.row_event, parent, false);
     }
+
 
 }

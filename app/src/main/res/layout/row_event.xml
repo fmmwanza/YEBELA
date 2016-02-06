@@ -15,7 +15,7 @@
             android:textStyle="bold"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:layout_marginTop="5dp"
+
             />
 
         <ImageView
@@ -48,6 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Dom, 26 Nov 2015"
+            android:textColor="#222222"
             android:layout_marginTop="2dp"
             android:layout_marginLeft="5dp"
             android:textSize="12sp"
@@ -61,7 +62,7 @@
             android:orientation="horizontal"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="5dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="5dp"
             android:descendantFocusability="blocksDescendants"
            >
 
@@ -71,6 +72,7 @@
                 android:layout_height="65dp"
                 android:text="Pensando"
                 android:textSize="11sp"
+                android:textColor="#76777C"
                 android:layout_marginLeft="5dp"
                 android:background="@drawable/button_pensando"
                 android:textStyle="bold"
@@ -82,6 +84,7 @@
                 android:layout_height="65dp"
                 android:text="Partiu"
                 android:textSize="11sp"
+                android:textColor="#76777C"
                 android:layout_marginLeft="5dp"
                 android:background="@drawable/button_style"
                 android:textStyle="bold"
@@ -93,6 +96,7 @@
                 android:layout_height="65dp"
                 android:text="Passo"
                 android:textSize="11sp"
+                android:textColor="#76777C"
                 android:layout_marginLeft="5dp"
                 android:background="@drawable/button_passo"
                 android:textStyle="bold"
