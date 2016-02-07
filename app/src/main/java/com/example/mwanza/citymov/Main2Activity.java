@@ -53,7 +53,7 @@ public class Main2Activity extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
         tabLayout.addTab(tabLayout.newTab().setText("Preferências"));
         tabLayout.addTab(tabLayout.newTab().setText("Próximos"));
-        tabLayout.addTab(tabLayout.newTab().setText("Meus eventos"));
+        tabLayout.addTab(tabLayout.newTab().setText("Minha Agenda"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
 
